@@ -1,0 +1,383 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="페이지-1" id="JcA8zVmYh1kmTuZtIoPd">
+    <mxGraphModel dx="901" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AcctbUhpxZKEnpc79HP5-20" value="데이터베이스" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2197" y="456" width="135" height="1211" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-21" value="코어 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="565" y="440" width="1582" height="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-22" value="관리 및 인터페이스" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="248" y="562" width="267" height="1069" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-23" value="사용자" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="517" width="158" height="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-24" value="고객" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="89" y="645" width="59" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-25" value="매장 관리자" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="65" y="1535" width="108" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-26" value="K사" style="rounded=1;arcSize=20;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="92" y="1067" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-27" value="재고/정산 관리" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="301" y="1230" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-28" value="자동 결제 처리" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="303" y="701" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-29" value="운영자 포털" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="313" y="1438" width="138" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-30" value="입장/인증 관리" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="301" y="805" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-31" value="복합 행동 세션 관리" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="286" y="909" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-32" value="팬덤 인사이트 대시보드" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="273" y="597" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-33" value="IP 콘텐츠 CMS" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="304" y="1126" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-34" value="비정형 굿즈 인식" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="296" y="1022" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-35" value="리테일 미디어 제어" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="288" y="1334" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-36" target="AcctbUhpxZKEnpc79HP5-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="1569" />
+              <mxPoint x="540" y="1730" />
+              <mxPoint x="2370" y="1730" />
+              <mxPoint x="2370" y="830" />
+              <mxPoint x="2265" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-36" value="로그/감사 이력 관리" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="284" y="1542" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-37" value="입장관리 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="610" y="853" width="168" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-38" value="세션/장바구니 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="847" y="863" width="206" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-39" value="결제 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1103" y="722" width="138" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-40" value="재고 알림 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1291" y="1240" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-41" value="보안/인증 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1933" y="475" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-42" value="고객 행동 분석 시스템&#xa;AI/YOLOv8" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1010" width="207" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-43" value="리테일 미디어 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="1223" width="202" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-44" value="분석/리포팅 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="855" y="607" width="191" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-45" value="운영 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1514" y="1451" width="138" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-46" value="매장관리 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1702" y="1451" width="168" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-47" value="에지 컴퓨팅 시스템" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1928" y="1489" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-48" value="고객 DB" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2231" y="525" width="68" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-49" value="거래 DB" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2231" y="641" width="68" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-50" value="상품 DB" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2231" y="968" width="68" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-51" value="이벤트 DB" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2223" y="1362" width="83" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-52" value="Vector DB" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2222" y="1563" width="85" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1.01;entryX=0;entryY=0.49;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-24" target="AcctbUhpxZKEnpc79HP5-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="198" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0.01;entryX=0;entryY=0.49;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-25" target="AcctbUhpxZKEnpc79HP5-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="198" y="1465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0.01;entryX=0;entryY=0.49;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-26" target="AcctbUhpxZKEnpc79HP5-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="198" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1.01;entryX=0;entryY=0.49;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-26" target="AcctbUhpxZKEnpc79HP5-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="198" y="1569" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.07;entryY=0.01;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-30" target="AcctbUhpxZKEnpc79HP5-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.13;entryY=1.01;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-31" target="AcctbUhpxZKEnpc79HP5-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="936" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.21;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-28" target="AcctbUhpxZKEnpc79HP5-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.35;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-27" target="AcctbUhpxZKEnpc79HP5-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1266" y="1257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.32;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-29" target="AcctbUhpxZKEnpc79HP5-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1489" y="1465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.35;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-32" target="AcctbUhpxZKEnpc79HP5-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-63" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.33;entryY=0.01;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-33" target="AcctbUhpxZKEnpc79HP5-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1895" y="1153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-34" target="AcctbUhpxZKEnpc79HP5-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.35;entryY=1.01;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-35" target="AcctbUhpxZKEnpc79HP5-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1895" y="1361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.36;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-37" target="AcctbUhpxZKEnpc79HP5-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.94;exitY=0.01;entryX=0.32;entryY=0.99;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-38" target="AcctbUhpxZKEnpc79HP5-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="853" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=0.99;entryX=0.09;entryY=0.99;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249.78" y="1305.5" />
+            </Array>
+            <mxPoint x="1160.0044897959185" y="772.5" as="sourcePoint" />
+            <mxPoint x="1288.9024489795918" y="1290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=0.99;entryX=0.19;entryY=1.01;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-40" target="AcctbUhpxZKEnpc79HP5-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1489" y="1537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=-0.01;entryX=0.07;entryY=0.99;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-42" target="AcctbUhpxZKEnpc79HP5-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="676" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-71" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=-0.01;entryX=0.34;entryY=1.01;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-42" target="AcctbUhpxZKEnpc79HP5-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="998" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=1.01;entryX=0;entryY=0.49;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-46" target="AcctbUhpxZKEnpc79HP5-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1895" y="1516" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-45" target="AcctbUhpxZKEnpc79HP5-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-74" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.07;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-41" target="AcctbUhpxZKEnpc79HP5-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2197" y="502" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-75" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.56;exitY=0.01;entryX=0;entryY=0.55;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-37" target="AcctbUhpxZKEnpc79HP5-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="564" />
+              <mxPoint x="2197" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-76" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.63;exitY=-0.01;entryX=0;entryY=0.9;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-39" target="AcctbUhpxZKEnpc79HP5-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1266" y="609" />
+              <mxPoint x="2197" y="609" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-77" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.65;exitY=-0.01;entryX=0;entryY=0.15;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-39" target="AcctbUhpxZKEnpc79HP5-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1266" y="629" />
+              <mxPoint x="2197" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-78" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.58;exitY=0.01;entryX=0;entryY=0.6;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-38" target="AcctbUhpxZKEnpc79HP5-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="687" />
+              <mxPoint x="2197" y="687" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-79" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.54;exitY=-0.01;entryX=0.29;entryY=0;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-40" target="AcctbUhpxZKEnpc79HP5-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1489" y="846" />
+              <mxPoint x="2197" y="846" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-80" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.62;exitY=1.01;entryX=0;entryY=0.73;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-38" target="AcctbUhpxZKEnpc79HP5-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="1030" />
+              <mxPoint x="2197" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-81" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.59;exitY=0.01;entryX=0;entryY=0.89;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-43" target="AcctbUhpxZKEnpc79HP5-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2147" y="1050" />
+              <mxPoint x="2197" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-82" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1;exitY=0.71;entryX=0.42;entryY=0;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-42" target="AcctbUhpxZKEnpc79HP5-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="1070" />
+              <mxPoint x="2197" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-83" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.56;exitY=-0.01;entryX=0.34;entryY=0;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-47" target="AcctbUhpxZKEnpc79HP5-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2147" y="1226" />
+              <mxPoint x="2197" y="1226" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-84" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.54;exitY=1.01;entryX=0.01;entryY=0.64;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-37" target="AcctbUhpxZKEnpc79HP5-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="1413" />
+              <mxPoint x="2197" y="1413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-85" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.15;entryX=0.02;entryY=1;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-46" target="AcctbUhpxZKEnpc79HP5-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1895" y="1454" />
+              <mxPoint x="2197" y="1454" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-86" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.55;exitY=0.99;entryX=0.01;entryY=0.32;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-42" target="AcctbUhpxZKEnpc79HP5-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="1578" />
+              <mxPoint x="2197" y="1578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-87" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.55;exitY=1.01;entryX=0.01;entryY=0.5;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-43" target="AcctbUhpxZKEnpc79HP5-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2147" y="1598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AcctbUhpxZKEnpc79HP5-88" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.68;exitY=0.99;entryX=0.01;entryY=0.68;rounded=0;" parent="1" source="AcctbUhpxZKEnpc79HP5-47" target="AcctbUhpxZKEnpc79HP5-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2147" y="1618" />
+              <mxPoint x="2197" y="1618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
