@@ -1,0 +1,212 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="C-ITS_Master_Architecture" id="jm9gBfAOUJ4XxE5Gncgd">
+    <mxGraphModel dx="-586" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f1myp6JqioD2bVvgHyo5-94" value="1. 외부 접근 및 엣지 (Access &amp; Edge Layer)" style="swimlane;startSize=30;html=1;fontFamily=Arial;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1700" y="50" width="320" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-100" value="Edge (현장 인프라)" style="swimlane;startSize=30;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontStyle=0" vertex="1" parent="f1myp6JqioD2bVvgHyo5-94">
+          <mxGeometry x="20" y="300" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-101" value="현장 수집 센서" style="group" vertex="1" connectable="0" parent="f1myp6JqioD2bVvgHyo5-100">
+          <mxGeometry x="20" y="50" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-102" value="CCTV / VDS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-101">
+          <mxGeometry y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-103" value="신호 제어기" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-101">
+          <mxGeometry x="120" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-104" value="Edge Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0A4A4;strokeColor=#B85450;fontStyle=1" vertex="1" parent="f1myp6JqioD2bVvgHyo5-100">
+          <mxGeometry x="60" y="150" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-105" value="- V2X 통신&#xa;- 1차 데이터 전처리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-100">
+          <mxGeometry x="30" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-106" value="외부 연계 시스템" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-94">
+          <mxGeometry x="30" y="600" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-107" value="공공데이터/기상청 API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-106">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-258" value="Internet&lt;div&gt;(외부망)&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-94">
+          <mxGeometry x="120.00000000000006" y="133.22451612903228" width="43.54838709677419" height="43.54838709677419" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-108" value="AWS Cloud VPC (Seoul Region)" style="swimlane;startSize=30;html=1;fontFamily=Arial;fontColor=#000000;fillColor=#E6E6E6;strokeColor=#666666;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="50" width="1600" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-109" value="2. 외부 접속망 (Public Subnet / DMZ)" style="swimlane;startSize=30;html=1;fontFamily=Arial;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-108">
+          <mxGeometry x="30" y="50" width="450" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-110" value="보안/접속 게이트웨이" style="group" vertex="1" connectable="0" parent="f1myp6JqioD2bVvgHyo5-109">
+          <mxGeometry x="30" y="50" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-111" value="Route 53" style="shape=mxgraph.aws3.route_53;html=1;fillColor=#F58534;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-110">
+          <mxGeometry x="20" y="25" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-112" value="CloudFront (+WAF)" style="shape=mxgraph.aws3.cloudfront;html=1;fillColor=#F58534;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-110">
+          <mxGeometry x="120" y="30" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-113" value="Internet Gateway" style="shape=mxgraph.aws3.internet_gateway;html=1;fillColor=#F58534;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-110">
+          <mxGeometry x="220" y="30" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-114" value="AWS ALB (L7)" style="shape=mxgraph.aws3.elastic_load_balancing;html=1;fillColor=#F58534;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-110">
+          <mxGeometry x="330" y="25" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-115" value="Web 서버 그룹 (EC2 ASG)" style="swimlane;html=1;startSize=30;fillColor=#FFFFFF;strokeColor=#82B366;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-109">
+          <mxGeometry x="30" y="180" width="390" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-116" value="[시민 서비스 UI]" style="text;html=1;fontStyle=1;align=left;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-115">
+          <mxGeometry x="10" y="40" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-117" value="- 실시간 교통 상황 지도&#xa;- 경로 탐색/우회 안내 UI&#xa;- 대중교통 도착 정보 UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;align=left;spacingLeft=10;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-115">
+          <mxGeometry x="20" y="70" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-118" value="[관리자 대시보드 UI]" style="text;html=1;fontStyle=1;align=left;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-115">
+          <mxGeometry x="10" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-119" value="- 센서/장비 상태 모니터링&#xa;- 돌발 상황 알림 로그 조회&#xa;- 시스템 리소스 대시보드" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;align=left;spacingLeft=10;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-115">
+          <mxGeometry x="20" y="180" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-120" value="미디어 서버 (EC2 ASG)" style="swimlane;html=1;startSize=30;fillColor=#FFFFFF;strokeColor=#82B366;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-109">
+          <mxGeometry x="30" y="480" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-121" value="- HLS/RTMP 스트리밍 엔진&#xa;- CCTV 영상 실시간 송출" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;align=center;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-120">
+          <mxGeometry x="20" y="50" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-250" value="Media Stream" style="endArrow=classic;html=1;" edge="1" parent="f1myp6JqioD2bVvgHyo5-109" source="f1myp6JqioD2bVvgHyo5-114" target="f1myp6JqioD2bVvgHyo5-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-264" value="" style="group" vertex="1" connectable="0" parent="f1myp6JqioD2bVvgHyo5-109">
+          <mxGeometry x="170" y="650" width="90" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-265" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.nat_gateway;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-264">
+          <mxGeometry x="19.19999999999999" width="51.6" height="41.7" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-266" value="NAT Gateway" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-264">
+          <mxGeometry y="42" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-123" value="3. 내부망 (Private Subnet / Core Logic)" style="swimlane;startSize=30;html=1;fontFamily=Arial;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-108">
+          <mxGeometry x="510" y="50" width="1080" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-124" value="데이터 수집/처리 (Ingestion)" style="swimlane;html=1;startSize=30;fillColor=#FFFFFF;strokeColor=#6C8EBF;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-123">
+          <mxGeometry x="30" y="50" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-126" value="Kinesis Data Stream" style="shape=mxgraph.aws3.kinesis;html=1;fillColor=#5294CF;gradientColor=none;dashed=0;labelPosition=bottom;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-124">
+          <mxGeometry x="130" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-127" value="- MQTT 브로커&#xa;- 실시간 스트림 파이프라인" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-124">
+          <mxGeometry x="10" y="150" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-263" value="AWS IoT Core&lt;div&gt;(MQTT Broker)&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.aws_iot;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-124">
+          <mxGeometry x="20" y="30" width="58.75" height="70.5" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-128" value="API/WAS 서버 (EC2 - Core Logic)" style="swimlane;html=1;startSize=30;fillColor=#FFFFFF;strokeColor=#6C8EBF;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-123">
+          <mxGeometry x="280" y="50" width="400" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-129" value="[교통 서비스 로직]" style="text;html=1;fontStyle=1;align=left;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-128">
+          <mxGeometry x="10" y="40" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-130" value="- 교통 정보 통합 처리 (정제/보정)&#xa;- 경로 탐색 및 추천 알고리즘&#xa;- 돌발 상황 감지 및 알림 트리거" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;spacingLeft=10;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-128">
+          <mxGeometry x="20" y="70" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-131" value="[운영/관리 로직]" style="text;html=1;fontStyle=1;align=left;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-128">
+          <mxGeometry x="10" y="160" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-132" value="- 장비/센서 상태 모니터링 로직&#xa;- 시스템 운영 및 권한 관리&#xa;- 외부 데이터(기상 등) 연동 처리" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;spacingLeft=10;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-128">
+          <mxGeometry x="20" y="190" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-133" value="Lambda (Serverless)" style="shape=mxgraph.aws3.lambda;html=1;fillColor=#F58534;gradientColor=none;dashed=0;labelPosition=bottom;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-128">
+          <mxGeometry x="175" y="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-134" value="분석 서버 (SageMaker/EC2)" style="swimlane;html=1;startSize=30;fillColor=#FFFFFF;strokeColor=#6C8EBF;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-123">
+          <mxGeometry x="770" y="50" width="300" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-135" value="- 실시간 교통 흐름 예측 (DL)&#xa;- 영상 분석 및 객체 인식 (YOLO)&#xa;- 디지털 트윈 시뮬레이션&#xa;- MLOps 모델 배포 관리" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;align=left;spacingLeft=10;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-134">
+          <mxGeometry x="20" y="50" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-267" value="Amazon SageMaker" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.sagemaker;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-134">
+          <mxGeometry x="110" y="200" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-137" value="데이터 저장소 (Data Layer)" style="swimlane;html=1;startSize=30;fillColor=#F5F5F5;strokeColor=#666666;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-123">
+          <mxGeometry x="30" y="450" width="980" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-138" value="Aurora DB (RDS)&#xa;[실시간/운영]" style="shape=mxgraph.aws3.rds;html=1;fillColor=#2E73B8;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="50" y="60" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-139" value="- 교통 정보 DB&#xa;- 장비 운영 DB&#xa;- 시스템 운영 DB" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="30" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-140" value="Redshift (DW)&#xa;[이력/분석]" style="shape=mxgraph.aws3.redshift;html=1;fillColor=#2E73B8;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="250" y="60" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-141" value="- 통계/이력 DB&#xa;- 교통 분석 DB" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="230" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-142" value="ElastiCache (Redis)&#xa;[캐시/알림]" style="shape=mxgraph.aws3.elasticache;html=1;fillColor=#2E73B8;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="450" y="60" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-143" value="- 예측 결과 캐시&#xa;- 알림/콘텐츠 DB" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="430" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-144" value="S3 (Data Lake)&#xa;[영상/로그]" style="shape=mxgraph.aws3.s3;html=1;fillColor=#E05243;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="650" y="60" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-145" value="- 원시 데이터&#xa;- CCTV 영상 저장&#xa;- 로그 백업" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="630" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-146" value="운영/보안 (Management)" style="swimlane;html=1;startSize=20;fillColor=#FFF8C0;strokeColor=#D6BC00;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry x="770" y="50" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-147" value="CloudWatch" style="shape=mxgraph.aws3.cloudwatch;html=1;fillColor=#759C3E;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-146">
+          <mxGeometry x="30" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-148" value="IAM" style="shape=mxgraph.aws3.iam;html=1;fillColor=#759C3E;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-146">
+          <mxGeometry x="120" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-149" value="SSM / KMS" style="shape=mxgraph.aws3.ec2_systems_manager;html=1;fillColor=#759C3E;gradientColor=none;dashed=0;" vertex="1" parent="f1myp6JqioD2bVvgHyo5-146">
+          <mxGeometry x="75" y="130" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-150" value="HTTPS" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-258" target="f1myp6JqioD2bVvgHyo5-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-151" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-111" target="f1myp6JqioD2bVvgHyo5-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-262" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f1myp6JqioD2bVvgHyo5-151">
+          <mxGeometry x="0.2618" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-152" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-112" target="f1myp6JqioD2bVvgHyo5-114">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-153" value="Load Balance" style="endArrow=classic;html=1;entryX=0.5;entryY=0;exitX=-0.024;exitY=0.954;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-114" target="f1myp6JqioD2bVvgHyo5-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-154" value="MQTT (TLS)" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-104" target="f1myp6JqioD2bVvgHyo5-124">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2050" y="405" />
+              <mxPoint x="2050" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-155" value="API Call" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-115" target="f1myp6JqioD2bVvgHyo5-128">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-156" value="Stream Data" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-124" target="f1myp6JqioD2bVvgHyo5-128">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-157" value="Inference&lt;div&gt;Request&lt;/div&gt;" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-128" target="f1myp6JqioD2bVvgHyo5-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1myp6JqioD2bVvgHyo5-158" value="R/W" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="f1myp6JqioD2bVvgHyo5-128" target="f1myp6JqioD2bVvgHyo5-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
